@@ -5,7 +5,7 @@ const CounterApp: React.FC = () => {
   // Access the count state from the Redux store
   const count = useSelector((state: RootState) => state.counter.value);
   // Get the dispatch function to dispatch actions
-  const dispatch : AppDispatch = useAppDispatch();
+  const dispatch: AppDispatch = useAppDispatch()
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-yellow-400 to-pink-500 flex flex-col justify-center items-center text-white">
